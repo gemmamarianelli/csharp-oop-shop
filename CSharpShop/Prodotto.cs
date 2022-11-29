@@ -22,7 +22,7 @@ namespace CSharpShop
         {
             this.codice = codice;
             this.nome = nome;
-            this.desrcizione = desrcizione;
+            this.desrcizione = descrizione;
             this.prezzo = prezzo;
             this.iva = iva;
         }
