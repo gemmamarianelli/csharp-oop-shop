@@ -28,6 +28,7 @@ namespace CSharpShop
         }
         public int getCodice()
         {
+            
             return codice;
         }
         public string GetNome()
@@ -49,6 +50,7 @@ namespace CSharpShop
         public void setCodice(int codice)
         {
             
+
             this.codice = codice;
         }
         public void setNome(string nome)
@@ -74,7 +76,8 @@ namespace CSharpShop
             Console.WriteLine("nome: " + nome);
             Console.WriteLine("descrizione: " + desrcizione);
             Console.WriteLine("prezzo: " + prezzo);
-            Console.WriteLine("iva" + iva);
+            Console.WriteLine("iva: " + iva);
+            Console.WriteLine("----------------------");
         }
     }
 }
